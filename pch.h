@@ -1,5 +1,6 @@
 #pragma warning(disable: 4018 4244 4482)
 #pragma comment(lib, "ws2_32.lib")
+//#pragma comment(lib, "libmysql.lib")
 
 #include <Winsock2.h>
 #include <Windows.h>
@@ -14,13 +15,14 @@
 #include <list>
 #include "framework.h"
 #include "main.h"
+#include "BigNumber.h"
 /*
 
 #include "DataInterface.h"
 
 //#include "AuthServerUtil.h"
 
-#include "Bignum.h"
+
 #include "TabulaCrypt.h"
 #include "Packing.h"
 #include "GameMain.h"

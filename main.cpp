@@ -48,14 +48,12 @@ typedef struct
 	uint32 sessionId1;
 	uint32 sessionId2;
 
-	/*
-	BIGNUM a;
-	BIGNUM A;
-	BIGNUM B;
-	BIGNUM K;
-	TABULACRYPT2 tc2;
-	*/
-
+	BigNumber a;
+	BigNumber A;
+	BigNumber B;
+	BigNumber K;
+	//TABULACRYPT2 tc2;
+	
 	sint32 State;
 }CLIENT_GAMELOGIN;
 
